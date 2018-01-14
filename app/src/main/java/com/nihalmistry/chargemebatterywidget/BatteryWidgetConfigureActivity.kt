@@ -50,7 +50,7 @@ class BatteryWidgetConfigureActivity : Activity() {
         val intent = getIntent()
         val extras = intent.getExtras()
         if (extras != null) {
-            mAppWidgetId = extras!!.getInt(
+            mAppWidgetId = extras.getInt(
                     AppWidgetManager.EXTRA_APPWIDGET_ID, AppWidgetManager.INVALID_APPWIDGET_ID)
         }
 
