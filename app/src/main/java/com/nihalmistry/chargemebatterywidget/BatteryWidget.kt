@@ -3,9 +3,6 @@ package com.nihalmistry.chargemebatterywidget
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
-import android.graphics.drawable.ShapeDrawable
-import android.graphics.drawable.shapes.ArcShape
-import android.graphics.drawable.shapes.Shape
 import android.widget.RemoteViews
 
 /**
